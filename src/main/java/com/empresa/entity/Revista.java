@@ -14,7 +14,7 @@ public class Revista {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "idrevista")
-	private Integer idRrevista;
+	private Integer idRevista;
 	
 	private String nombre;
 	
@@ -25,11 +25,11 @@ public class Revista {
 	private String estado;
 
 	public Integer getIdRrevista() {
-		return idRrevista;
+		return idRevista;
 	}
 
 	public void setIdRrevista(Integer idRrevista) {
-		this.idRrevista = idRrevista;
+		this.idRevista = idRrevista;
 	}
 
 	public String getNombre() {
